@@ -26,7 +26,7 @@ const components = {
 };
 
 storyblokInit({
-  accessToken: "6QGIP7L1V9eapEd9Vr025wtt",
+  accessToken: "Vr0bXOsHQQBYFRPZuYLriQtt",
   use: [apiPlugin],
   components,
   apiOptions: {
