@@ -9,6 +9,7 @@ import Hero from "../components/Hero";
 import Article from "../components/Article";
 import PopularArtices from "../components/PopularArticles";
 import AllArticles from "../components/AllArticles";
+import FormLogin from '../components/FormLogin';
 
 
 
@@ -22,11 +23,12 @@ const components = {
  'all-articles': AllArticles,
   article: Article,
   'popular-articles': PopularArtices,
+  FormLogin :FormLogin
  
 };
 
 storyblokInit({
-  accessToken: "Vr0bXOsHQQBYFRPZuYLriQtt",
+  accessToken: "6QGIP7L1V9eapEd9Vr025wtt",
   use: [apiPlugin],
   components,
   apiOptions: {
