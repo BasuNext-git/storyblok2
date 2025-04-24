@@ -73,6 +73,7 @@ const Navigation = ({locales, locale, defaultLocale}) => {
                 Services
               </a>
             </Link>
+
             {locales.map(loc => (     
                 <span key={loc} onClick={ () => changeLocale(loc)}
                     className={`block px-4 py-1 md:p-2 rounded-lg lg:px-4 cursor-pointer ${
@@ -81,6 +82,21 @@ const Navigation = ({locales, locale, defaultLocale}) => {
                     {loc}
               </span>
               ))}
+            <Link href="/loginform">
+              <a>
+                <span className="sr-only">Login</span>
+                <img
+                  className="h-20 w-auto sm:h-10 hidden sm:block"
+                  src='https://cdn-icons-png.flaticon.com/128/17238/17238353.png'
+                  alt="login"
+                />
+                <img
+                  className="h-20 w-auto sm:h-10 sm:hidden"
+                  src='https://cdn-icons-png.flaticon.com/128/17238/17238353.png'
+                  alt="login"
+                />
+              </a>
+            </Link>
           </div>
         </div>
       </div>
